@@ -1,0 +1,112 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+   
+
+}
+
+
+.container{
+    position: relative;
+    background-image:url(./assets/bg.png );
+    background-repeat:no-repeat;
+    background-size: 1366px 760px;
+    background-position:center;
+    width:100vw;
+    height:100vh;
+
+
+
+
+}
+.navbar{
+    display:flex;
+    height:10vh;
+    background-color:black;
+    align-items:center;
+    gap:60px;
+    justify-content:space-around;
+     
+
+    
+
+}
+
+.grow-list{
+   margin-left: -30%;
+
+}
+
+.line{
+    width:2px;
+    height:54px;
+   border-right : 1px solid rgb(252, 252, 252);
+   position:relative;
+   right:18%;
+}
+
+ .list {
+     color:white;
+     display:flex;
+     list-style: none;
+   
+     
+}
+
+.list-item{
+    margin-right:35px;
+    font-size: 20px;
+
+
+
+}
+
+
+img{
+    width:50%;
+    height:50%;
+}
+
+.hero{
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%, -50%);
+
+}
+
+.hero-heading{ 
+ font-size:68px;
+ margin-left:10% ;
+ margin-top: -30% ;
+ color:aliceblue;
+}
+
+.hero-description{
+   font-size:22px;
+   color:aliceblue;
+   margin-left:20% ;
+
+}
+
+.button-large{
+    font-size:22px;
+    padding:10px 10px;
+    font-weight: 400;
+    border-radius:7px;
+    background-color:#b637bb;
+    color:antiquewhite;
+    border:none;
+    margin-left:30%;
+    margin-top: 5%;
+
+}
+
+.button-small{
+    background-color:#b637bb;
+    color:antiquewhite;
+    padding:10px 20px;
+    border-radius:7px;
+
+}
